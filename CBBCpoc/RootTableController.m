@@ -20,7 +20,7 @@
     [super viewDidLoad];
     
     WXDemoViewController *v1 = [[WXDemoViewController alloc]init];
-    v1.url =[NSURL URLWithString:@"http://emas-ha-remote-log-poc.oss-cn-beijing.aliyuncs.com/eweex/app/111-11/upload/9612b6d0-16d3-4b51-aba3-dc34224377b3/index.js"]; //[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"js" inDirectory:@""]];
+    v1.url =[NSURL URLWithString:@"http://emas-ha-remote-log-poc.oss-cn-beijing.aliyuncs.com/eweex/app/111-11/upload/76e455db-4b8c-4e2e-9bf8-4419c5340e1d/index(8).js"]; //[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"js" inDirectory:@""]];
     v1.tabBarItem.image = [UIImage imageNamed:@"icon_map"];
     
     v1.tabBarItem.title = @"home";
