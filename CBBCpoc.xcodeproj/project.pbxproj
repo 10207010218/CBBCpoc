@@ -13,6 +13,17 @@
 		39C7B6B22088474500AC87C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C7B6B12088474500AC87C2 /* Assets.xcassets */; };
 		39C7B6B52088474500AC87C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C7B6B32088474500AC87C2 /* LaunchScreen.storyboard */; };
 		39C7B6B82088474500AC87C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C7B6B72088474500AC87C2 /* main.m */; };
+		921CD59B20886931000B0B12 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD59A20886931000B0B12 /* HomeController.m */; };
+		921CD59E2088694E000B0B12 /* SetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD59D2088694E000B0B12 /* SetController.m */; };
+		921CD5A1208869E6000B0B12 /* RootTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5A0208869E6000B0B12 /* RootTableController.m */; };
+		921CD5B120886D09000B0B12 /* WeexSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5A420886D09000B0B12 /* WeexSDKManager.m */; };
+		921CD5B220886D09000B0B12 /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5A720886D09000B0B12 /* WXImgLoaderDefaultImpl.m */; };
+		921CD5B320886D09000B0B12 /* WXNavigationHandlerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5A920886D09000B0B12 /* WXNavigationHandlerImpl.m */; };
+		921CD5B420886D09000B0B12 /* UIViewController+WXDemoNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5AC20886D09000B0B12 /* UIViewController+WXDemoNaviBar.m */; };
+		921CD5B520886D09000B0B12 /* WXDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5AE20886D09000B0B12 /* WXDemoViewController.m */; };
+		921CD5B620886D09000B0B12 /* WXTitleBarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5B020886D09000B0B12 /* WXTitleBarModule.m */; };
+		921CD5B9208870AA000B0B12 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 921CD5B8208870AA000B0B12 /* index.js */; };
+		921CD5BC20887984000B0B12 /* WeexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5BB20887984000B0B12 /* WeexModel.m */; };
 		D05EA383252257E5E610DD3E /* libPods-CBBCpoc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB2516AC372ACCD3B677429 /* libPods-CBBCpoc.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +39,28 @@
 		39C7B6B42088474500AC87C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39C7B6B62088474500AC87C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C7B6B72088474500AC87C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		921CD59920886931000B0B12 /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		921CD59A20886931000B0B12 /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		921CD59C2088694E000B0B12 /* SetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetController.h; sourceTree = "<group>"; };
+		921CD59D2088694E000B0B12 /* SetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetController.m; sourceTree = "<group>"; };
+		921CD59F208869E6000B0B12 /* RootTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTableController.h; sourceTree = "<group>"; };
+		921CD5A0208869E6000B0B12 /* RootTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTableController.m; sourceTree = "<group>"; };
+		921CD5A420886D09000B0B12 /* WeexSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeexSDKManager.m; sourceTree = "<group>"; };
+		921CD5A520886D09000B0B12 /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
+		921CD5A620886D09000B0B12 /* WeexSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeexSDKManager.h; sourceTree = "<group>"; };
+		921CD5A720886D09000B0B12 /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
+		921CD5A920886D09000B0B12 /* WXNavigationHandlerImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXNavigationHandlerImpl.m; sourceTree = "<group>"; };
+		921CD5AA20886D09000B0B12 /* WXDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDemoViewController.h; sourceTree = "<group>"; };
+		921CD5AB20886D09000B0B12 /* WXTitleBarModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTitleBarModule.h; sourceTree = "<group>"; };
+		921CD5AC20886D09000B0B12 /* UIViewController+WXDemoNaviBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXDemoNaviBar.m"; sourceTree = "<group>"; };
+		921CD5AD20886D09000B0B12 /* WXNavigationHandlerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNavigationHandlerImpl.h; sourceTree = "<group>"; };
+		921CD5AE20886D09000B0B12 /* WXDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDemoViewController.m; sourceTree = "<group>"; };
+		921CD5AF20886D09000B0B12 /* UIViewController+WXDemoNaviBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXDemoNaviBar.h"; sourceTree = "<group>"; };
+		921CD5B020886D09000B0B12 /* WXTitleBarModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTitleBarModule.m; sourceTree = "<group>"; };
+		921CD5B720886D21000B0B12 /* DemoDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoDefine.h; sourceTree = "<group>"; };
+		921CD5B8208870AA000B0B12 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		921CD5BA20887984000B0B12 /* WeexModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeexModel.h; sourceTree = "<group>"; };
+		921CD5BB20887984000B0B12 /* WeexModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexModel.m; sourceTree = "<group>"; };
 		96E65D10494196C4A4FAF755 /* Pods-CBBCpoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBBCpoc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBBCpoc/Pods-CBBCpoc.debug.xcconfig"; sourceTree = "<group>"; };
 		9FB2516AC372ACCD3B677429 /* libPods-CBBCpoc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBBCpoc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,6 +106,9 @@
 		39C7B6A72088474500AC87C2 /* CBBCpoc */ = {
 			isa = PBXGroup;
 			children = (
+				921CD5B720886D21000B0B12 /* DemoDefine.h */,
+				921CD5B8208870AA000B0B12 /* index.js */,
+				921CD5A220886D09000B0B12 /* Archive */,
 				39C7B6A82088474500AC87C2 /* AppDelegate.h */,
 				39C7B6A92088474500AC87C2 /* AppDelegate.m */,
 				39C7B6AB2088474500AC87C2 /* ViewController.h */,
@@ -82,6 +118,14 @@
 				39C7B6B32088474500AC87C2 /* LaunchScreen.storyboard */,
 				39C7B6B62088474500AC87C2 /* Info.plist */,
 				39C7B6B72088474500AC87C2 /* main.m */,
+				921CD59920886931000B0B12 /* HomeController.h */,
+				921CD59A20886931000B0B12 /* HomeController.m */,
+				921CD59C2088694E000B0B12 /* SetController.h */,
+				921CD59D2088694E000B0B12 /* SetController.m */,
+				921CD59F208869E6000B0B12 /* RootTableController.h */,
+				921CD5A0208869E6000B0B12 /* RootTableController.m */,
+				921CD5BA20887984000B0B12 /* WeexModel.h */,
+				921CD5BB20887984000B0B12 /* WeexModel.m */,
 			);
 			path = CBBCpoc;
 			sourceTree = "<group>";
@@ -93,6 +137,41 @@
 				2F02758D9A785155CF3FF4DC /* Pods-CBBCpoc.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		921CD5A220886D09000B0B12 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				921CD5A320886D09000B0B12 /* WeexConfig */,
+				921CD5A820886D09000B0B12 /* WeexScanner */,
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		921CD5A320886D09000B0B12 /* WeexConfig */ = {
+			isa = PBXGroup;
+			children = (
+				921CD5A420886D09000B0B12 /* WeexSDKManager.m */,
+				921CD5A520886D09000B0B12 /* WXImgLoaderDefaultImpl.h */,
+				921CD5A620886D09000B0B12 /* WeexSDKManager.h */,
+				921CD5A720886D09000B0B12 /* WXImgLoaderDefaultImpl.m */,
+			);
+			path = WeexConfig;
+			sourceTree = "<group>";
+		};
+		921CD5A820886D09000B0B12 /* WeexScanner */ = {
+			isa = PBXGroup;
+			children = (
+				921CD5A920886D09000B0B12 /* WXNavigationHandlerImpl.m */,
+				921CD5AA20886D09000B0B12 /* WXDemoViewController.h */,
+				921CD5AB20886D09000B0B12 /* WXTitleBarModule.h */,
+				921CD5AC20886D09000B0B12 /* UIViewController+WXDemoNaviBar.m */,
+				921CD5AD20886D09000B0B12 /* WXNavigationHandlerImpl.h */,
+				921CD5AE20886D09000B0B12 /* WXDemoViewController.m */,
+				921CD5AF20886D09000B0B12 /* UIViewController+WXDemoNaviBar.h */,
+				921CD5B020886D09000B0B12 /* WXTitleBarModule.m */,
+			);
+			path = WeexScanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +237,7 @@
 				39C7B6B52088474500AC87C2 /* LaunchScreen.storyboard in Resources */,
 				39C7B6B22088474500AC87C2 /* Assets.xcassets in Resources */,
 				39C7B6B02088474500AC87C2 /* Main.storyboard in Resources */,
+				921CD5B9208870AA000B0B12 /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,9 +289,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921CD5B120886D09000B0B12 /* WeexSDKManager.m in Sources */,
+				921CD59E2088694E000B0B12 /* SetController.m in Sources */,
+				921CD59B20886931000B0B12 /* HomeController.m in Sources */,
+				921CD5BC20887984000B0B12 /* WeexModel.m in Sources */,
+				921CD5A1208869E6000B0B12 /* RootTableController.m in Sources */,
 				39C7B6AD2088474500AC87C2 /* ViewController.m in Sources */,
+				921CD5B620886D09000B0B12 /* WXTitleBarModule.m in Sources */,
+				921CD5B220886D09000B0B12 /* WXImgLoaderDefaultImpl.m in Sources */,
+				921CD5B420886D09000B0B12 /* UIViewController+WXDemoNaviBar.m in Sources */,
+				921CD5B520886D09000B0B12 /* WXDemoViewController.m in Sources */,
 				39C7B6B82088474500AC87C2 /* main.m in Sources */,
 				39C7B6AA2088474500AC87C2 /* AppDelegate.m in Sources */,
+				921CD5B320886D09000B0B12 /* WXNavigationHandlerImpl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

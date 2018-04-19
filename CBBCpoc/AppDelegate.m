@@ -7,7 +7,11 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootTableController.h"
+#import <WeexSDK/WXAppConfiguration.h>
+#import <WeexSDK/WXSDKEngine.h>
+#import <WeexSDK/WXLog.h>
+#import "WeexModel.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +20,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    [WXSDKEngine initSDKEnvironment];
+    [WXSDKEngine registerModule:@"event" withClass:[WeexModel class]];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    RootTableController *tabController = [[RootTableController alloc]init];
+    self.window.rootViewController = tabController;
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 
