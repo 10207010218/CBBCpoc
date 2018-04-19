@@ -23,6 +23,7 @@ WX_EXPORT_METHOD(@selector(showParams2:callback:));
 }
 
 
+
 -(void)showParams2:(NSString *)inputParam callback:(WXModuleKeepAliveCallback) callback
 {
     if(!inputParam){
