@@ -12,6 +12,7 @@
 #import <WeexSDK/WXSDKEngine.h>
 #import <WeexSDK/WXLog.h>
 #import "WeexModel.h"
+#import "WXImgLoaderDefaultImpl.h"
 @interface AppDelegate ()
 
 @end
@@ -21,7 +22,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
+    [WXSDKEngine registerHandler:[WXImgLoaderDefaultImpl new] withProtocol:@protocol(WXImgLoaderProtocol)];
     [WXSDKEngine initSDKEnvironment];
     [WXSDKEngine registerModule:@"event" withClass:[WeexModel class]];
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];

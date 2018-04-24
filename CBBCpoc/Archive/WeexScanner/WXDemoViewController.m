@@ -26,6 +26,8 @@
 @property (nonatomic) NSInteger count;
 
 @property (nonatomic, assign) CGFloat weexHeight;
+@property (nonatomic, assign) CGFloat tabbarHeight;
+@property (nonatomic, assign) CGFloat navHeight;
 @property (nonatomic, weak) id<UIScrollViewDelegate> originalDelegate;
 
 @end
@@ -47,8 +49,17 @@
     [self setupNaviBar];
     [self setupRightBarItem];
     self.view.backgroundColor = [UIColor whiteColor];
+    self.additionalSafeAreaInsets = UIEdgeInsetsMake(-[[UIApplication sharedApplication] statusBarFrame].size.height, 0, 0, 0);
+   
+    if([UIScreen mainScreen].bounds.size.height == 812){
+        _tabbarHeight = 83;
+        _navHeight = 88;
+    }else{
+        _tabbarHeight = 49;
+        _navHeight = 64;
+    }
     
-    _weexHeight = self.view.frame.size.height - 64;
+    _weexHeight = self.view.frame.size.height - _tabbarHeight;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notificationRefreshInstance:) name:@"RefreshInstance" object:nil];
     
 #if DEBUG
@@ -94,7 +105,7 @@
 //TODO get height
 - (void)viewDidLayoutSubviews
 {
-    _weexHeight = self.view.frame.size.height;
+  
     UIEdgeInsets safeArea = UIEdgeInsetsZero;
 #ifdef __IPHONE_11_0
     if (@available(iOS 11.0, *)) {
@@ -103,7 +114,7 @@
         // Fallback on earlier versions
     }
 #endif
-    _instance.frame = CGRectMake(safeArea.left, safeArea.top, self.view.frame.size.width-safeArea.left-safeArea.right, _weexHeight-safeArea.bottom);
+    _instance.frame = CGRectMake(safeArea.left,0, self.view.frame.size.width-safeArea.left-safeArea.right, _weexHeight);
 
 }
 

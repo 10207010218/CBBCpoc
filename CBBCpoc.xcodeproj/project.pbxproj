@@ -22,8 +22,13 @@
 		921CD5B420886D09000B0B12 /* UIViewController+WXDemoNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5AC20886D09000B0B12 /* UIViewController+WXDemoNaviBar.m */; };
 		921CD5B520886D09000B0B12 /* WXDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5AE20886D09000B0B12 /* WXDemoViewController.m */; };
 		921CD5B620886D09000B0B12 /* WXTitleBarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5B020886D09000B0B12 /* WXTitleBarModule.m */; };
-		921CD5B9208870AA000B0B12 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 921CD5B8208870AA000B0B12 /* index.js */; };
 		921CD5BC20887984000B0B12 /* WeexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 921CD5BB20887984000B0B12 /* WeexModel.m */; };
+		921CD5C3208EB784000B0B12 /* finance.js in Resources */ = {isa = PBXBuildFile; fileRef = 921CD5BD208EB782000B0B12 /* finance.js */; };
+		921CD5C4208EB784000B0B12 /* life.js in Resources */ = {isa = PBXBuildFile; fileRef = 921CD5BE208EB782000B0B12 /* life.js */; };
+		921CD5C5208EB784000B0B12 /* mine.js in Resources */ = {isa = PBXBuildFile; fileRef = 921CD5BF208EB783000B0B12 /* mine.js */; };
+		921CD5C6208EB784000B0B12 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 921CD5C0208EB783000B0B12 /* index.js */; };
+		921CD5C7208EB784000B0B12 /* activity.js in Resources */ = {isa = PBXBuildFile; fileRef = 921CD5C1208EB783000B0B12 /* activity.js */; };
+		921CD5C8208EB784000B0B12 /* logout.js in Resources */ = {isa = PBXBuildFile; fileRef = 921CD5C2208EB784000B0B12 /* logout.js */; };
 		D05EA383252257E5E610DD3E /* libPods-CBBCpoc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB2516AC372ACCD3B677429 /* libPods-CBBCpoc.a */; };
 /* End PBXBuildFile section */
 
@@ -58,9 +63,14 @@
 		921CD5AF20886D09000B0B12 /* UIViewController+WXDemoNaviBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXDemoNaviBar.h"; sourceTree = "<group>"; };
 		921CD5B020886D09000B0B12 /* WXTitleBarModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTitleBarModule.m; sourceTree = "<group>"; };
 		921CD5B720886D21000B0B12 /* DemoDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoDefine.h; sourceTree = "<group>"; };
-		921CD5B8208870AA000B0B12 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		921CD5BA20887984000B0B12 /* WeexModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeexModel.h; sourceTree = "<group>"; };
 		921CD5BB20887984000B0B12 /* WeexModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexModel.m; sourceTree = "<group>"; };
+		921CD5BD208EB782000B0B12 /* finance.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = finance.js; sourceTree = "<group>"; };
+		921CD5BE208EB782000B0B12 /* life.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = life.js; sourceTree = "<group>"; };
+		921CD5BF208EB783000B0B12 /* mine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mine.js; sourceTree = "<group>"; };
+		921CD5C0208EB783000B0B12 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		921CD5C1208EB783000B0B12 /* activity.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = activity.js; sourceTree = "<group>"; };
+		921CD5C2208EB784000B0B12 /* logout.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = logout.js; sourceTree = "<group>"; };
 		96E65D10494196C4A4FAF755 /* Pods-CBBCpoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBBCpoc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBBCpoc/Pods-CBBCpoc.debug.xcconfig"; sourceTree = "<group>"; };
 		9FB2516AC372ACCD3B677429 /* libPods-CBBCpoc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBBCpoc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,8 +116,13 @@
 		39C7B6A72088474500AC87C2 /* CBBCpoc */ = {
 			isa = PBXGroup;
 			children = (
+				921CD5C1208EB783000B0B12 /* activity.js */,
+				921CD5BD208EB782000B0B12 /* finance.js */,
+				921CD5C0208EB783000B0B12 /* index.js */,
+				921CD5BE208EB782000B0B12 /* life.js */,
+				921CD5C2208EB784000B0B12 /* logout.js */,
+				921CD5BF208EB783000B0B12 /* mine.js */,
 				921CD5B720886D21000B0B12 /* DemoDefine.h */,
-				921CD5B8208870AA000B0B12 /* index.js */,
 				921CD5A220886D09000B0B12 /* Archive */,
 				39C7B6A82088474500AC87C2 /* AppDelegate.h */,
 				39C7B6A92088474500AC87C2 /* AppDelegate.m */,
@@ -235,9 +250,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				39C7B6B52088474500AC87C2 /* LaunchScreen.storyboard in Resources */,
+				921CD5C3208EB784000B0B12 /* finance.js in Resources */,
+				921CD5C4208EB784000B0B12 /* life.js in Resources */,
+				921CD5C7208EB784000B0B12 /* activity.js in Resources */,
+				921CD5C8208EB784000B0B12 /* logout.js in Resources */,
+				921CD5C5208EB784000B0B12 /* mine.js in Resources */,
+				921CD5C6208EB784000B0B12 /* index.js in Resources */,
 				39C7B6B22088474500AC87C2 /* Assets.xcassets in Resources */,
 				39C7B6B02088474500AC87C2 /* Main.storyboard in Resources */,
-				921CD5B9208870AA000B0B12 /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
